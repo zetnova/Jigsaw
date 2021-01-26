@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Jigsaw First Time registration",
+        "description": "",
+        "id": ";jigsaw-first-time-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5765618536,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open Jigsaw web application",
+            "match": {
+              "location": "JigsawSteps.open_Jigsaw_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118563140,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the First time user button",
+            "match": {
+              "location": "JigsawSteps.clickTheFirstTimeUserButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 404834599,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify that Login page is open",
+            "match": {
+              "location": "JigsawSteps.verifyThatLoginPageIsOpen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144698382,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter a valid email address",
+            "match": {
+              "location": "JigsawSteps.enterEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1531337193,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click the Continue button",
+            "match": {
+              "location": "JigsawSteps.pressContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 432881743,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify that My Profile page is open and assert that your email address is pre-populated in the Email address field",
+            "match": {
+              "location": "JigsawSteps.verifyEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1025826702,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "fill up the required fields and close the page",
+            "match": {
+              "location": "JigsawSteps.fillUpRequiredFields()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "Jigsaw.feature"
+  }
+]
